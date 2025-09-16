@@ -1,82 +1,54 @@
-Livros em Foco
-Um aplicativo mobile de busca de livros
-<div align="center">
-<img src="https://via.placeholder.com/600x300.png?text=Adicionar+Imagem+do+App" alt="Captura de tela do aplicativo Livros em Foco" />
-</div>
+# 📚 Livros em Foco
 
-📖 Sobre o Projeto
-O Livros em Foco é um aplicativo móvel simples e moderno, desenvolvido em React Native, para buscar informações sobre livros. Utilizando a poderosa API do Google Books, o app permite aos usuários pesquisar por títulos, autores ou assuntos e visualizar detalhes completos como sinopse, editora e data de publicação.
+Aplicativo mobile feito com **React Native** que permite a busca e visualização de detalhes de livros utilizando a **Google Books API**. Ele oferece uma experiência de navegação moderna com transições suaves, telas estilizadas e integração real com dados da web.
 
-O objetivo do projeto é demonstrar a criação de um aplicativo funcional que consome uma API externa, gerencia o estado da aplicação e utiliza a navegação entre telas de forma fluida.
+---
 
-✨ Funcionalidades
-Busca de Livros: Pesquise por qualquer livro usando a barra de pesquisa.
+## ✨ Funcionalidades
 
-Detalhes do Livro: Toque em um livro para ver sua capa, autores, editora, data de publicação e uma descrição completa.
+- ✅ Tela de **Splash Screen** com transição automática.
+- 🔎 Busca de livros por título, autor ou assunto.
+- 📖 Lista de resultados com capa, título e autor.
+- 📘 Tela de detalhes com:
+  - Título
+  - Autor(es)
+  - Editora
+  - Data de publicação
+  - Descrição
+  - Botão para mais informações no Google Books
+- 🎨 Interface moderna com gradientes, sombras e ícones.
 
-Design Responsivo: Interface otimizada para diferentes tamanhos de tela.
+---
 
-Navegação Intuitiva: Transições suaves entre as telas de busca e detalhes.
+## 🛠️ Tecnologias Utilizadas
 
-Link Externo: Botão para abrir o link do Google Books para mais informações.
+- [React Native](https://reactnative.dev/)
+- [React Navigation](https://reactnavigation.org/)
+- [Expo](https://expo.dev/)
+- [Expo Linear Gradient](https://docs.expo.dev/versions/latest/sdk/linear-gradient/)
+- [Ionicons](https://ionic.io/ionicons)
+- [Google Books API](https://developers.google.com/books)
 
-🚀 Tecnologias Utilizadas
-React Native: Framework para desenvolvimento de aplicativos móveis.
+---
 
-Expo: Ferramenta para simplificar o desenvolvimento, build e deploy de apps React Native.
+## ▶️ Como Rodar o Projeto
 
-React Navigation: Gerenciamento da navegação entre as telas do aplicativo.
+### ✅ Pré-requisitos
 
-Google Books API: Fonte de dados para a busca de livros.
+- Node.js instalado
+- Expo CLI instalado globalmente (`npm install -g expo-cli`)
 
-expo-linear-gradient: Componente para criar os gradientes de cor.
+### 🚀 Passos para rodar
 
-@expo/vector-icons: Coleção de ícones vetoriais.
+```bash
+# 1. Clone o repositório
+git clone https://github.com/seu-usuario/livros-em-foco.git
 
-🛠️ Instalação e Execução
-Para rodar o projeto localmente, siga os passos abaixo:
-
-Pré-requisitos:
-
-Node.js (versão 14 ou superior)
-
-Expo CLI (npm install -g expo-cli)
-
-Clone o repositório:
-
-Bash
-
-git clone https://github.com/SEU-USUARIO/livros-em-foco.git
-Navegue até o diretório do projeto:
-
-Bash
-
+# 2. Acesse o diretório
 cd livros-em-foco
-Instale as dependências:
 
-Bash
-
+# 3. Instale as dependências
 npm install
-Inicie o servidor de desenvolvimento:
 
-Bash
-
+# 4. Inicie o projeto com Expo
 npm start
-Após executar o comando, um QR Code será exibido no seu terminal. Use o aplicativo Expo Go no seu celular para escanear o código e visualizar o app.
-
-🤝 Contribuição
-Contribuições são bem-vindas! Se você encontrar um bug ou tiver uma ideia para uma nova funcionalidade, sinta-se à vontade para abrir uma issue ou enviar um pull request.
-
-Faça um fork do projeto.
-
-Crie uma nova branch (git checkout -b feature/nova-funcionalidade).
-
-Faça suas alterações e commit (git commit -m 'feat: adiciona nova funcionalidade').
-
-Envie para o branch original (git push origin feature/nova-funcionalidade).
-
-Abra um Pull Request.
-
-📄 Licença
-Este projeto está licenciado sob a Licença MIT.
-
